@@ -1,3 +1,4 @@
+import 'package:chat_app/cubits/chat_cubit/chat_cubit.dart';
 import 'package:chat_app/cubits/login_cubit/login_cubit.dart';
 import 'package:chat_app/cubits/register_cubit/register_cubit.dart';
 import 'package:chat_app/firebase_options.dart';
@@ -28,6 +29,9 @@ class ChatSphere extends StatelessWidget {
         ),
         BlocProvider(
           create: (context) => RegisterCubit(),
+        ),
+        BlocProvider(
+          create: (context) => ChatCubit(),
         ),
       ],
       child: MaterialApp(
