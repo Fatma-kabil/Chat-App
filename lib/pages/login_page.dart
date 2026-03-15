@@ -87,6 +87,7 @@ class LoginPage extends StatelessWidget {
                   CustomTextField(
                     onchanged: (value) {
                       email = value;
+                      
                     },
                     hintText: 'Email',
                     icon: const Icon(Icons.email),

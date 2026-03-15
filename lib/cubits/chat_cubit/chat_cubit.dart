@@ -22,7 +22,7 @@ class ChatCubit extends Cubit<ChatState> {
           'id': email,
         });
       }
-    } on Exception catch (e) {
+    } on Exception {
       // TODO
     }
   }

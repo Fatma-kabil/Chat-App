@@ -1,6 +1,5 @@
 import 'package:chat_app/constant.dart';
 import 'package:chat_app/cubits/chat_cubit/chat_cubit.dart';
-import 'package:chat_app/models/message.dart';
 import 'package:chat_app/widgets/chat_buble.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
